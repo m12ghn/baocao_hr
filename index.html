@@ -24,20 +24,19 @@
 <script>
 fetch('reports.json').then(r=>r.json()).then(list=>{
   const sel=document.getElementById('sel'), f=document.getElementById('f'), open=document.getElementById('open');
-  list.sort((a,b)=>b.week-a.week);
   list.forEach((r,i)=>{
     const o=document.createElement('option');
-    o.value=r.week;
-    o.textContent='Tuần '+r.week+' ('+r.date+')'+(i===0?' – mới nhất':'');
+    o.value=r.id;
+    o.textContent=r.label+(i===0?' – mới nhất':'');
     sel.appendChild(o);
   });
-  function show(week){
-    const r=list.find(x=>String(x.week)===String(week))||list[0];
-    sel.value=r.week; f.src=r.file; open.href=r.file;
-    history.replaceState(null,'','#tuan'+r.week);
+  function show(id){
+    const r=list.find(x=>x.id===id)||list[0];
+    sel.value=r.id; f.src=r.file; open.href=r.file;
+    history.replaceState(null,'','#'+r.id);
   }
   sel.onchange=()=>show(sel.value);
-  show((location.hash.match(/tuan(\d+)/)||[])[1]);
+  show(location.hash.slice(1));
 });
 </script>
 </body>

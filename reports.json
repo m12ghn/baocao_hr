@@ -1,8 +1,9 @@
 [
-  {"week": 41, "date": "12.10.2026", "file": "reports/BaoCao_M12_Tuan41_12.10.2026.html"},
-  {"week": 40, "date": "05.10.2026", "file": "reports/BaoCao_M12_Tuan40_05.10.2026.html"},
-  {"week": 39, "date": "28.09.2026", "file": "reports/BaoCao_M12_Tuan39_28.09.2026.html"},
-  {"week": 38, "date": "21.09.2026", "file": "reports/BaoCao_M12_Tuan38_21.09.2026.html"},
-  {"week": 37, "date": "13.09.2026", "file": "reports/BaoCao_M12_Tuan37_13.09.2026.html"},
-  {"week": 36, "date": "06.09.2026", "file": "reports/BaoCao_M12_Tuan36_06.09.2026.html"}
+  {"id": "tuan41", "label": "Tuần 41 (12.10.2026)", "file": "reports/BaoCao_M12_Tuan41_12.10.2026.html"},
+  {"id": "event-10-12-10", "label": "Đáp ứng nhân sự Event 10–12/10 (M12 SC)", "file": "reports/BaoCao_DapUng_NhanSu_Event_10-12_10_2026_M12SC.html"},
+  {"id": "tuan40", "label": "Tuần 40 (05.10.2026)", "file": "reports/BaoCao_M12_Tuan40_05.10.2026.html"},
+  {"id": "tuan39", "label": "Tuần 39 (28.09.2026)", "file": "reports/BaoCao_M12_Tuan39_28.09.2026.html"},
+  {"id": "tuan38", "label": "Tuần 38 (21.09.2026)", "file": "reports/BaoCao_M12_Tuan38_21.09.2026.html"},
+  {"id": "tuan37", "label": "Tuần 37 (13.09.2026)", "file": "reports/BaoCao_M12_Tuan37_13.09.2026.html"},
+  {"id": "tuan36", "label": "Tuần 36 (06.09.2026)", "file": "reports/BaoCao_M12_Tuan36_06.09.2026.html"}
 ]
